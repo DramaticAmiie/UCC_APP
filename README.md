@@ -2,7 +2,7 @@
  - **ID Number:** 20191537 
  + **Name:**  Amelia Hayward
 
-#Screenshots
+# Screenshots
 
 + Home Screen
 ![image](https://user-images.githubusercontent.com/97540072/232128273-f21ab513-967a-4a3d-9bd9-0c9778a054c2.png)
