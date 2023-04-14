@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">UCC IT APP</string>
+    <string name="textCourseName">Name</string>
+    <string name="textCourseCode">Code</string>
+    <string name="textCourseCredits">Credits</string>
+    <string name="textCoursePrerequisites">Prerequisite</string>
+    <string name="textCourseDescription">Description</string>
+    <string name="textWelcome">Welcome</string>
+    <string name="textHeading">admissionHeading</string>
+    <string name="textAdmissionInfo">admissionInfo</string>
+    <string name="staffName">staff</string>
+    <string name="staffEmail">email</string>
+    <string name="staffPhoneNumber">phoneNumber</string>
+    <string name="textDirectory">directory</string>
+    <string name="labelHome">Home</string>
+    <string name="labelAdmissions">Admission</string>
+    <string name="labelCourse">Courses</string>
+    <string name="labelFaculty">Faculty</string>
+    <string name="textCourse">course</string>
+    <string name="textAdmissionUrl">admissionUrl</string>
+    <string name="hddescript">Description</string>
+    <string name="hdprereq">Prerequisites</string>
+    <string name="hdCode">Code</string>
+    <string name="hdCredit">Credit</string>
+    <string name="labelPhoneNumber">Phone Number</string>
+    <string name="labelEmail">Email</string>
+
+    <string-array name="staff">
+        <item>Miller, Christina</item>
+        <item>Erhunse, Fiona</item>
+        <item>Spears, Tahiti</item>
+        <item>Hall, Kristen</item>
+        <item>Luis, Juan</item>
+        <item>Underwood, Terrence</item>
+        <item>Fleming, Vince</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>Computer Information Systems</item>
+        <item>Programming Techniques</item>
+        <item>Database Management Systems</item>
+        <item>Internet Authoring I</item>
+        <item>Introduction to Cryptography</item>
+        <item>Introduction to Psychology</item>
+        <item>Human Computer Interaction and Design</item>
+        <item>Object Oriented Programming Design using C++</item>
+        <item>Building Applications with C#</item>
+        <item>Mobile Application and Development</item>
+    </string-array>
+
+</resources>

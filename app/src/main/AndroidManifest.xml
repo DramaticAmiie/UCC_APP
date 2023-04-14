@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UCC"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UCCITAPP"
+        tools:targetApi="31">
+        <activity
+            android:name=".IGSocial"
+            android:exported="false" />
+        <activity
+            android:name=".FBSocial"
+            android:exported="false" />
+        <activity
+            android:name=".TSocial"
+            android:exported="false" />
+        <activity
+            android:name=".Web"
+            android:exported="false" />
+        <activity
+            android:name=".AdmissionActivity"
+            android:label="Admission"
+            android:exported="false" />
+
+        <activity
+            android:name=".CourseActivity"
+            android:label="IT Courses"
+            android:exported="false" />
+
+        <activity
+            android:name=".FacultyDetails"
+            android:label="Faculty"
+            android:exported="false" />
+
+        <activity
+            android:name=".FacultyDirectory"
+            android:label="Faculty"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

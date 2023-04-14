@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rowCard">
+
+    <LinearLayout
+    android:id="@+id/rowLinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="end|bottom"
+    android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/textCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/textCourseName"
+            tools:text="Name" />
+
+        <LinearLayout
+
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hdCode"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hdCode"
+                android:textAllCaps="true"
+                android:textColor="@color/ucc_purple"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textCourseCode"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textCourseCode"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:text="Code" />
+
+            <TextView
+                android:id="@+id/hdCredits"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hdCredit"
+                android:textAllCaps="true"
+                android:textColor="@color/ucc_purple"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textCourseCredits"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textCourseCredits"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:text="Credits" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hdPrerequisites"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hdprereq"
+                android:textAllCaps="true"
+                android:textColor="@color/ucc_purple"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/textCoursePrerequisites"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textCoursePrerequisites"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:text="Prerequisites" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/hdDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/hddescript"
+            android:textAllCaps="true"
+            android:textColor="@color/ucc_purple"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/textCourseDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/textCourseDescription"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:text="Description" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="3dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
